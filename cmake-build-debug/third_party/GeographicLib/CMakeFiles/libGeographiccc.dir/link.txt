@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -g  -shared -Wl,-soname,liblibGeographiccc.so -o ../../devel/lib/liblibGeographiccc.so CMakeFiles/libGeographiccc.dir/src/LocalCartesian.cpp.o CMakeFiles/libGeographiccc.dir/src/Geocentric.cpp.o CMakeFiles/libGeographiccc.dir/src/Math.cpp.o 

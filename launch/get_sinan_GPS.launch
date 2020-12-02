@@ -1,0 +1,9 @@
+<!-- -*- mode: XML -*- -->
+
+<launch>
+
+  <node pkg="send_comnav_data" type="main" name="send_comnav_data_node" output="screen">
+  	<param name="port" type="string" value="/dev/ttyUSB0" />
+  </node>
+
+</launch>
